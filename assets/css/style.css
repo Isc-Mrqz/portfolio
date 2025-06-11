@@ -666,7 +666,6 @@ body.nav-active { overflow: hidden; }
 
 .navbar.active {
   visibility: visible;
-  z-index: 100;
   transform: translateX(360px);
 }
 

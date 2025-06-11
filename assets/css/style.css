@@ -958,7 +958,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 120px;
 }
 
-.about-banner > .w-100 { padding-inline-start: 50px; }
+/* .about-banner > .w-100 { padding-inline-start: 50px; } */
 
 .about .abs-img { position: absolute; }
 
@@ -996,6 +996,20 @@ body.nav-active { overflow: hidden; }
 }
 
 
+.about-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-block-end: 120px;
+}
+
+.about-banner img {
+  width: 100%;
+  max-width: 500px; /* Optional: limit how large each image gets */
+  height: auto;
+  display: block;
+}
 
 
 

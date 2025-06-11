@@ -2186,3 +2186,12 @@ textarea.input-field {
   justify-content: center;
 }
 }
+@media (max-width: 768px) {
+  .phone-frame {
+    width: 350px;           
+    height: 300px;             
+    margin-left: auto;
+    margin-right: auto;
+    /* rest of your styles */
+  }
+}

@@ -2292,3 +2292,7 @@ textarea.input-field {
     /* rest of your styles */
   }
 }
+
+.space {
+  margin-top: 20px;
+}
